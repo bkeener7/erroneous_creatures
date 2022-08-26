@@ -15,7 +15,8 @@ class Hobbit
   end
 
   def adult?
-    @agee >= 32
+    return true if @age > 32
+    false
   end
 
   def play
